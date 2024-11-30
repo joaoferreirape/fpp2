@@ -1,0 +1,23 @@
+{
+    "name": "fpp2",
+    "version": "1.0.0",
+    "description": "Forecasting: Principles and Practice",
+    "main": "()",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "embedme": "npx embedme --stdout README.template.md > README.md"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaoferreirape/fpp2.git"
+    },
+    "author": "Joao Ferreira",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/joaoferreirape/fpp2/issues"
+    },
+    "homepage": "https://github.com/joaoferreirape/fpp2#readme",
+    "devDependencies": {
+        "embedme": "^1.22.1"
+    }
+}
