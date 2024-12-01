@@ -5,7 +5,9 @@
     "main": "()",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "embedme": "npx embedme --stdout README.template.md > README.md"
+        "embedme": "embedme README.md && embedme ./ch**/*.md",
+        "embedmetemplate": "npx embedme --stdout README.template.md > README.md"
+
     },
     "repository": {
         "type": "git",
