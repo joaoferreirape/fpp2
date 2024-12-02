@@ -1,5 +1,7 @@
 # Forecasting: Principles and Practice
 
+**Previsão: Princípios e Prática**
+
 Este repositório contém resumo do material oriundo e da implementação do que consta na segunda edição do livro on-line de ``Rob J Hyndman`` e ``George Athanasopoulos``, disponível em [https://otexts.com/fpp2/](https://otexts.com/fpp2/)
 
 Há uma terceira edição do livro, disponível em [https://otexts.com/fpp3](https://otexts.com/fpp3)
