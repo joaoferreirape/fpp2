@@ -1,14 +1,14 @@
 # Adaptado de https://rpubs.com/elsimanataputro/goldprice
 
 # Instalação de pacotes
-install.packages("tidyverse")
-install.packages("lubridate")
-install.packages("forecast")
-install.packages("MLmetrics")
-install.packages("tseries")
-install.packages("TSstudio")
-install.packages("padr")
-install.packages("imputeTS")
+install.packages("tidyverse", repos = "http://cran.us.r-project.org")
+install.packages("lubridate", repos = "http://cran.us.r-project.org")
+install.packages("forecast", repos = "http://cran.us.r-project.org")
+install.packages("MLmetrics", repos = "http://cran.us.r-project.org")
+install.packages("tseries", repos = "http://cran.us.r-project.org")
+install.packages("TSstudio", repos = "http://cran.us.r-project.org")
+install.packages("padr", repos = "http://cran.us.r-project.org")
+install.packages("imputeTS", repos = "http://cran.us.r-project.org")
 
 # Carregamento de bibliotecas
 library(tidyverse)
@@ -22,7 +22,7 @@ library(imputeTS)
 theme_set(theme_minimal())
 
 # Carregamento dos dados
-gold <- read.csv("D:/Workspace/GitHub/joaoferreirape/fpp2/ch02/goldprice.csv")
+gold <- read.csv("/home/joaof/Work/Workspace/GitHub/joaoferreirape/fpp2/ch02/goldprice.csv")
 gold
 
 # #################
