@@ -114,7 +114,7 @@ gold_ts %>%
             series = "HW model") +
   autolayer(gold_HWforecast$mean, lwd = 0.5,
             series = "Forecast 1 year")
-## No gráfico, podemos ver que a linha azul (modelo HW) com dados de trem é bem similar aos nossos dados originais. Infelizmente, a linha vermelha (Previsão) não é realmente precisa, a previsão prevê que o preço vai subir, mas os dados originais vão cair. Vamos verificar nosso erro com o MAPE.
+## No gráfico, podemos ver que a linha azul (modelo HW) com dados de train é bem similar aos nossos dados originais. Infelizmente, a linha vermelha (Previsão) não é realmente precisa, a previsão prevê que o preço vai subir, mas os dados originais vão cair. Vamos verificar nosso erro com o MAPE.
 MAPE(gold_HWmodel$fitted[,1], train)*100
 MAPE(gold_HWforecast$mean, test)*100
 
